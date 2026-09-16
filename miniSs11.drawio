@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="Dp8SNKsRlD5n9w3dSwkF">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="On_FQ196rv1Nbp08iTGF-1" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="Khách Hàng" vertex="1">
+          <mxGeometry height="50" width="20" x="60" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="On_FQ196rv1Nbp08iTGF-23" parent="1" style="swimlane;" value="Container" vertex="1">
+          <mxGeometry height="360" width="490" x="150" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="On_FQ196rv1Nbp08iTGF-2" parent="On_FQ196rv1Nbp08iTGF-23" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;span id=&quot;docs-internal-guid-177e96a2-7fff-b517-b519-2e5a69c4f9f3&quot;&gt;&lt;span style=&quot;font-size: 12.96pt; font-family: Consolas, sans-serif; color: rgb(199, 37, 78); background-color: transparent; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Tra cứu phòng trống&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="207.5" x="90" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="On_FQ196rv1Nbp08iTGF-13" parent="On_FQ196rv1Nbp08iTGF-23" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;span id=&quot;docs-internal-guid-d4be1aad-7fff-d892-7509-32b564224f69&quot;&gt;&lt;span style=&quot;font-size: 12.96pt; font-family: Consolas, sans-serif; color: rgb(199, 37, 78); background-color: transparent; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Đặt phòng&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="On_FQ196rv1Nbp08iTGF-14" parent="On_FQ196rv1Nbp08iTGF-23" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;span id=&quot;docs-internal-guid-69661ff8-7fff-f17e-f774-82c0f2206c49&quot;&gt;&lt;span style=&quot;font-size: 12.96pt; font-family: Consolas, sans-serif; color: rgb(199, 37, 78); background-color: transparent; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Hủy phòng&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="185" x="47.5" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="On_FQ196rv1Nbp08iTGF-25" edge="1" parent="On_FQ196rv1Nbp08iTGF-23" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-60" y="60" as="sourcePoint" />
+            <mxPoint x="100" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On_FQ196rv1Nbp08iTGF-29" parent="On_FQ196rv1Nbp08iTGF-23" style="ellipse;whiteSpace=wrap;html=1;" value="Đăng Nhập" vertex="1">
+          <mxGeometry height="70" width="162.5" x="310" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="On_FQ196rv1Nbp08iTGF-31" edge="1" parent="On_FQ196rv1Nbp08iTGF-23" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" target="On_FQ196rv1Nbp08iTGF-29" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="297.5" y="74.5" as="sourcePoint" />
+            <mxPoint x="457.5" y="74.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On_FQ196rv1Nbp08iTGF-32" edge="1" parent="On_FQ196rv1Nbp08iTGF-23" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" target="On_FQ196rv1Nbp08iTGF-29" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="232.5" y="200" as="sourcePoint" />
+            <mxPoint x="392.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On_FQ196rv1Nbp08iTGF-33" edge="1" parent="On_FQ196rv1Nbp08iTGF-23" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.324;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;" target="On_FQ196rv1Nbp08iTGF-29" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="210" y="260" as="sourcePoint" />
+            <mxPoint x="370" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On_FQ196rv1Nbp08iTGF-26" edge="1" parent="1" source="On_FQ196rv1Nbp08iTGF-1" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="On_FQ196rv1Nbp08iTGF-13" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="70" y="84.5" as="sourcePoint" />
+            <mxPoint x="230" y="84.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="On_FQ196rv1Nbp08iTGF-28" edge="1" parent="1" source="On_FQ196rv1Nbp08iTGF-1" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.001;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" target="On_FQ196rv1Nbp08iTGF-14" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="20" y="150" as="sourcePoint" />
+            <mxPoint x="180" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
